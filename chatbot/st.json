@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi!",
+                "Hey!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "see you later",
+                "bye",
+                "good bye",
+                "i am leaving",
+                "see you",
+                "catch you later",
+                "quit",
+                "exit",
+                "bye buddy",
+                "gn"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Miss you!",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "about",
+                "tell about you",
+                "who are you?",
+                "in what language you are developed?",
+                "you are developed by?"
+            ],
+            "responses": [
+                "I am AI ChatBot developed by HARIS in 2024. I was build in Python."
+            ]
+        }
+    ]
+}
